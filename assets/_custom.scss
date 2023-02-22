@@ -16,3 +16,11 @@
 .derani {
   font-family: "Derani";
 }
+
+.hidden {
+  filter: blur(5px);
+}
+
+.hidden:hover {
+  filter: blur(0px);
+}
